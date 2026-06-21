@@ -1,9 +1,9 @@
+import Kanban from "./componenets/Kanban";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold text-center my-10 underline">
-        Welcome to React
-      </h1>
+      <Kanban />
     </>
   );
 }
